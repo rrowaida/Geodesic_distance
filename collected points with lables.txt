@@ -1,0 +1,39 @@
+head (back-left, back-right, right, left)
+1655
+2728
+1384
+4462
+neck (back-left, back-right, right, left)
+7040
+8962
+4024
+4047
+left sholder back-to front
+7235
+7989
+right sholder back-to front
+7251
+8826
+hand tip left 
+6513
+hand tip right 
+6105
+under arm left back-to front
+5023
+6215
+under arm right back-to front
+8387
+9169
+waist back-left, back-right, right, left
+5949
+4117
+6784
+5994
+chest back, left, front, right
+3773
+3338
+8659
+7002
+foot-tip left, right
+1864
+351
