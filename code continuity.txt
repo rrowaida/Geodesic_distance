@@ -1,0 +1,10 @@
+dijkstra.m - finds distance between any two points
+
+collected points.txt - selected 28 points
+
+model_read_bnd.m - reads those 28 points from file collected points.txt
+
+all_point_geo_dist.m - writes all pair geodesic distance in 'scan_000_dist.txt', and their route in 'scan_000_rout.txt' 
+
+geo_path_show.m - reads model 'scan_000.obj' and it's route 'scan_000_rout.txt'and creates 'scan_000_geo_dist.obj' which visualize the geo distances
+

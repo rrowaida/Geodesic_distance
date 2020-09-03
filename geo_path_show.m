@@ -2,7 +2,8 @@
 input_filename = 'scan_000.obj';
 %input_filename = 'bunny.obj';
 
-output_prefix_boundary = 'scan_000_selected_points';
+%output_prefix_boundary = 'scan_000_selected_points';
+output_prefix_boundary = 'scan_000_geo_dist';
 %output_prefix_boundary = 'test_points';
 
 if 1
@@ -11,8 +12,9 @@ model = model_read_obj(input_filename);
 model = model_connectivity(model);
 end
 
+bnd = model_read_bnd('scan_000_rout.txt');
 %bnd = model_read_bnd('test_rout.txt');
-bnd = model_read_bnd('collected points.txt');
+%bnd = model_read_bnd('collected points.txt');
 
 for ind = 1: rows(bnd)
   %bnd_v(ind,:) = model.mesh.vertices(bnd(ind,1), :);
